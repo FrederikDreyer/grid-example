@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Example</title>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -10,24 +11,58 @@
     <div class="wrapper">
 
       <header>
-        My grid test
+
+        <nav>
+          <h1>Grid Example</h1>
+          <a class="blog" href="#blog">Blog</a>
+          <a class="priser" href="#priser">Piser</a>
+        </nav>
+
+        <img src="headerimg.jpg" alt="Skov" class="headerimg">
       </header>
 
-      <nav>
-        My nav
-      </nav>
-
       <main>
-        Main Content
+
+        <h2 id="blog">Blog</h2>
+
+        <section class="artikler">
+
+          <article class="box1">
+            Artikel 1
+          </article>
+
+          <article class="box2">
+            Artikel 2
+          </article>
+
+          <article class="box3">
+            Arikel 3
+          </article>
+
+          <article class="box4">
+            Artikel 4
+          </article>
+
+        </section>
+
+        <h2 id="priser">Priser</h2>
+
+        <section class="priser">
+
+          <article class="pris1">
+            Pris 1
+          </article>
+
+          <article class="pris2">
+            Pris 2
+          </article>
+
+          <article class="pris3">
+            Pris 3
+          </article>
+
+        </section>
       </main>
-
-      <aside class="left">
-        Left sidebar
-      </aside>
-
-      <aside class="right">
-        Rigth sidebar
-      </aside>
 
       <footer>
         Footer
